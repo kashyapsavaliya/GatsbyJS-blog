@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Julia Doe`,
+    title: `Blog`,
     subtitle: `software developer`,
-    description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
-    author: `@niklasmtj`,
+    description: `A minimal blog by Kash`,
+    author: `@kashyapsavaliya`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,7 +30,7 @@ module.exports = {
         plugins: [`gatsby-remark-reading-time`, {
           resolve: `gatsby-remark-prismjs`,
           options: {
-            aliases:{sh: "bash", js:"javascript"},
+            aliases: { sh: "bash", js: "javascript" },
             showLineNumbers: true,
           }
         }],
